@@ -1,57 +1,54 @@
 <template>
-    <scroll>
-			<div>
-					<!-- 轮播图 -->
-				<van-swipe :autoplay="3000">
-					<van-swipe-item v-for="(image, index) in images" :key="index">
-							<img :src="image.img" />
-					</van-swipe-item>
-				</van-swipe>
-				<!-- 8宫格 -->
-				<ul class="nav clearfix">
-					<li>
-						<router-link tag="a" to="/home/NewsList">
-							<img src="./images/menu1.png" alt="">
-							<div class="mui-media-body">新闻资讯</div>
-						</router-link>
-					</li>
-					<li>
-						<a>
-							<img src="./images/menu2.png" alt="">
-							<div class="mui-media-body">图片分享</div>
-						</a>
-					</li>
-					<li>
-						<a>
-							<img src="./images/menu3.png" alt="">
-							<div class="mui-media-body">商品购买</div>
-						</a>
-					</li>
-					<li>
-						<a>
-							<img src="./images/menu4.png" alt="">
-							<div class="mui-media-body">留言反馈</div>
-						</a>
-					</li>
-					<li>
-						<a>
-							<img src="./images/menu5.png" alt="">
-							<div class="mui-media-body">视频专区</div>
-						</a>
-					</li>
-					<li>
-						<a>
-							<img src="./images/menu6.png" alt="">
-							<div class="mui-media-body">联系我们</div>
-						</a>
-					</li>
-				</ul>
-			</div>
-    </scroll>
+	<div>
+			<!-- 轮播图 -->
+		<van-swipe :autoplay="3000">
+			<van-swipe-item v-for="(image, index) in images" :key="index">
+					<img :src="image.img" />
+			</van-swipe-item>
+		</van-swipe>
+		<!-- 8宫格 -->
+		<ul class="nav clearfix">
+			<li>
+				<router-link tag="a" to="/home/newsList">
+					<img src="./images/menu1.png" alt="">
+					<div class="mui-media-body">新闻资讯</div>
+				</router-link>
+			</li>
+			<li>
+				<router-link tag="a" to="/home/photolist">
+					<img src="./images/menu2.png" alt="">
+					<div class="mui-media-body">图片分享</div>
+				</router-link>
+			</li>
+			<li>
+				<router-link tag="a" to="/home/goodsList">
+					<img src="./images/menu3.png" alt="">
+					<div class="mui-media-body">商品购买</div>
+				</router-link>
+			</li>
+			<li>
+				<a>
+					<img src="./images/menu4.png" alt="">
+					<div class="mui-media-body">留言反馈</div>
+				</a>
+			</li>
+			<li>
+				<a>
+					<img src="./images/menu5.png" alt="">
+					<div class="mui-media-body">视频专区</div>
+				</a>
+			</li>
+			<li>
+				<a>
+					<img src="./images/menu6.png" alt="">
+					<div class="mui-media-body">联系我们</div>
+				</a>
+			</li>
+		</ul>
+	</div>
 </template>
 
 <script>
-import scroll from '@/base/scroll/scroll'
 export default {
 	name:"HomeContainer",
 	data() {
@@ -73,9 +70,6 @@ export default {
 				console.log(error)
 			})
 		}
-	},
-	components: {
-		scroll
 	}
 	
 }

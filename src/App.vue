@@ -13,8 +13,9 @@
       <van-tabbar v-model="active">
         <van-tabbar-item icon="home-o" to="/home">首页</van-tabbar-item>
         <van-tabbar-item icon="manager" to="/member">会员</van-tabbar-item>
-        <van-tabbar-item icon="shopping-cart" info="5" to="/search">购物车</van-tabbar-item>
-        <van-tabbar-item icon="search" to="/shopcar">搜索</van-tabbar-item>
+        <van-tabbar-item icon="shopping-cart" info="5" 
+        id="badge" to="/shopcar">购物车</van-tabbar-item>
+        <van-tabbar-item icon="search" to="/serach">搜索</van-tabbar-item>
       </van-tabbar>
     </div>
   </div>
@@ -57,7 +58,7 @@ export default {
   overflow-x: hidden;
 }
 .header {
-  z-index: 99;
+  z-index: 999;
   max-width: 100%;
   background-color: skyblue;
   color:#fff;

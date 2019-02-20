@@ -4,9 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Vant from 'vant';
+import store from './store/'
 import 'vant/lib/index.css';
 Vue.use(Vant);
 import '../src/assets/css/base.css'
+import VuePreview from 'vue-preview'
+// defalut install
+Vue.use(VuePreview)
 
 import Axios  from 'axios'
 Vue.prototype.$axios = Axios
@@ -26,6 +30,7 @@ Vue.filter('dateFormat', function (dataStr, pattern = "YYYY-MM-DD HH:mm:ss") {
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })

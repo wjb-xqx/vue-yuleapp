@@ -1,0 +1,39 @@
+{
+    "code":0,
+    "data":[{
+        "id":1,
+        "img":"https://m.360buyimg.com/babel/jfs/t1/4528/10/3590/153299/5b997bf5E4a513949/45ab3dd6c35d981b.jpg!q70.jpg",
+        "name":"Apple iPhone X (A1865) 64GB 深空灰色 移动联通电信4G手机",
+        "price":"5800",
+        "market_price":"6300",
+        "stock_quantity":200
+    },{
+        "id":2,
+        "img":"https://m.360buyimg.com/babel/jfs/t30184/230/476184793/260944/53cc2bbc/5bf4b25dN3b673c83.jpg!q70.jpg",
+        "name":"荣耀10青春版 幻彩渐变 2400万AI自拍 全网通版4GB+64GB 渐变蓝 移动联通电信4G全面屏手机 双卡双待",
+        "price":"6500",
+        "market_price":"6800",
+        "stock_quantity":200
+    },{
+        "id":3,
+        "img":"https://m.360buyimg.com/babel/jfs/t1/8112/20/10485/366920/5c2336deEab272fe3/12b58de5020ca1a1.jpg!q70.jpg",
+        "name":"荣耀V20 胡歌同款 麒麟980芯片 魅眼全视屏 6GB+128GB 魅海蓝 游戏手机 移动联通电信4G全面屏手机 双卡双待",
+        "price":"5790",
+        "market_price":"6000",
+        "stock_quantity":118
+    },{
+        "id":4,
+        "img":"https://m.360buyimg.com/babel/jfs/t1/6425/40/3887/217009/5bd716e9E4886d5d8/b3da975f4047ded3.jpg!q70.jpg",
+        "name":"一加手机6T 8GB+128GB 墨岩黑 光感屏幕指纹 高通骁龙845 全面屏双摄游戏手机 全网通4G 双卡双待",
+        "price":"4800",
+        "market_price":"5000",
+        "stock_quantity":150
+    },{
+        "id":5,
+        "img":"https://m.360buyimg.com/babel/jfs/t1/3405/18/3537/69901/5b997c0aE5dc8ed9f/a2c208410ae84d1f.jpg!q70.jpg",
+        "name":"Apple iPhone XR (A2108) 128GB 黑色 移动联通电信4G手机 双卡双待",
+        "price":"6300",
+        "market_price":"8300",
+        "stock_quantity":115
+    }]
+}

@@ -74,8 +74,10 @@ export default {
 				}
 			}
 			>.rightBox {
-				flex: 1;
+				display: flex;
 				padding-left: 8px;
+				 flex-direction: column;
+    		justify-content: space-between;
 				>h3 {
 					display: -webkit-box;
 					-webkit-box-orient: vertical;

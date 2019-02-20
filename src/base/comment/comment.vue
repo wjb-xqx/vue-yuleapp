@@ -56,11 +56,15 @@ export default {
     },
     methods : {
         postComment() {
-            let arr = {name:'爱你的'}
-           let a = this.msg
-            arr.content = a
-            this.comments.unshift(arr)
-
+          // 校验是否为空内容
+        if (this.msg.trim().length === 0) {
+          return this.$toast("评论内容不能为空！");
+        }
+        let arr = {name:'爱你的'}
+        let a = this.msg
+        arr.content = a
+        this.comments.unshift(arr)
+            
         },
         getMore() {
 
